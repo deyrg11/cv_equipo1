@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Nombre - Curriculum Luis</title>
+  <link rel="stylesheet" href="css/nuñez.css">
+</head>
+<img src="img/MiFoto.jpeg" alt="Tu Foto">
+<h3>Datos personales</h3>
+<ul>
+    <li>Nombre completo:<strong>Luis Abraham Nuñez Bravo</strong></li>
+    <li>Fecha de nacimient:<strong>16/07/2003</strong></li>
+    <li>Lugar de nacimiento:<strong>Córdoba,ver</strong></li>
+    <li>Direccion:<strong>Av 2A entre calles 25 y 27 #2508 Col.Miguel Hidalgo</strong></li>
+  </ul>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d641.3482137528363!2d-96.92488674083978!3d18.887569014455444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1710030737910!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<body>
+  <h2 onclick="toggleSection('Datos')">Fórmacion Académica</h2>
+  <div class="section Datos">
+    <div class="Datos">
+   <li>Primaria:<strong>Jacinta Carrillo de Castro</strong></li>
+    <li>Secundaria:<strong>Enrique C. Rebsamen 1°,2°</strong></li>
+    <li>Secundaria: <strong>Enrique Herrera Moreno Fed #1  3°</strong></li>
+    <li>Preparatoria:<strong>CBTIS 47</strong></li>
+    <li>Universidad:<strong>Instituto Tecnologico de Orizaba</strong></li>
+    </div>
+  </div>
+
+  <!-- Agrega más secciones de experiencia según sea necesario -->
+
+  <h2 onclick="toggleSection('education')">Experiencia Laboral</h2>
+  <div class="section education">
+    <div class="education">
+        <ul>
+            <h3>Mariachi Guadalajara</h3>
+        <ul>
+            <li><a >Creacion de redes Sociales</a></li>
+            <li><a >Edicion y publicacion de videos en youtube</a></li>
+            <li><a >Asesoramiento de Marketing</a></li>
+    </div>
+  </div>
+
+  <!-- Agrega más secciones de educación según sea necesario -->
+
+  <h2 onclick="toggleSection('skills')">Habilidades</h2>
+  <div class="section skills">
+    <div class="skills">
+      <h3>Lenguajes de Programación</h3>
+      <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Ensamblador</li>
+      </ul>
+      <h3>Extras</h3>
+        <li>Albañeleria</li>
+        <li>Pintura</li>
+        <li>Cristaleria</li>
+    </div>
+  </div>
+  <h2 onclick="toggleSection('Contactos')">Contacto</h2>
+  <div class="section Contactos">
+    <div class="Contactos">
+      <ul>
+        <li>Tel:<strong>2717305800</strong></li>
+        <li> Email:<strong>luislanb123@gmail.com</strong></li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function toggleSection(sectionId) {
+      var section = document.querySelector('.' + sectionId);
+      section.style.display = (section.style.display === 'none' || section.style.display === '') ? 'block' : 'none';
+    }
+  </script>
+<div class="regresar">
+    <a href="index.html"><button>Regresar</button></a>
+    </div>
+</body>
+</html>

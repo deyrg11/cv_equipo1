@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    
+}
+
+h1 {
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    background-color: beige;
+}
+.contenedor{
+    margin-left: 30px;
+}
+.datos-personales h2 {
+    text-transform: uppercase;
+    color: red;
+    font-size: 30px;
+
+}
+
+.datos-personales p {
+    color: black;
+    font-size: 25px;
+}
+
+.datos-personales b {
+    color: blue;
+    font-size: 25px;
+}
+
+.imagen {
+    float: right;
+    width: 400px;
+
+}
+
+.imagen img {
+    margin-top: -250px;
+    margin-left: -40px;
+    max-width: 100%;
+    height: auto;
+}
+
+.formacion-academica h2 {
+    text-transform: uppercase;
+    color: red;
+    font-size: 30px;
+
+}
+
+.formacion-academica p{
+    color: black;
+    font-size: 25px;
+}
+
+.formacion-academica b{
+    color: blue;
+    font-size: 25px;
+}
+
+.experiencia-laboral h2{
+    text-transform: uppercase;
+    color: red;
+    font-size: 30px;
+}
+
+.experiencia-laboral li{
+    color: black;
+    font-size: 25px;
+}
+
+.experiencia-laboral b{
+    color: blue;
+    font-size: 25px;
+}
+
+
+.habilidades h2{
+    text-transform: uppercase;
+    color: red;
+    font-size: 30px;
+}
+
+.habilidades ul{
+    color: black;
+    font-size: 25px;
+   list-style: square;
+}
+
+ul li::marker{ 
+    
+color: blue;
+}
+
+.idioma h2{
+    text-transform: uppercase;
+    color: red;
+    font-size: 30px;
+}
+
+.idioma p{
+    color: black;
+    font-size: 25px;
+}
+
+.idioma b{
+    color: blue;
+    font-size: 25px;
+}
+
+.contacto button{
+    background-color: beige;
+    color: red;
+    border-radius: 25px;
+    font-size: 30px;
+
+}
+.contacto :hover{
+background-color: yellow;
+}
+.contacto{
+    text-align: center;
+}
+
+.regresar button{
+    background-color: palevioletred;
+    color: red;
+    border-radius: 25px;
+    font-size: 30px;
+}
+.regresar{
+    text-align: right;
+}
+.regresar :hover{
+    background-color: pink;
+    }
